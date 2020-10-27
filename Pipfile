@@ -1,0 +1,21 @@
+[[source]]
+url = ""
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+requests = "*"
+twine = "*"
+PyQt5 = "*"
+
+[dev-packages]
+"flake8" = "*"
+pytest = "*"
+ipython = "*"
+mypy = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+
+[requires]
+python_version = "3.8"
